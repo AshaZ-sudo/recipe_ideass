@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom */
+body { @apply bg-gray-50; }
+.transition-safe { transition: all 200ms ease; }
